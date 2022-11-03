@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbell Brigade</title>
+    <link rel="stylesheet" href="/dist/css/main.min.css">
+    <script src="https://kit.fontawesome.com/460480b505.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img class="wall_ppr" src="/index_page/images/BFCM_Background_Wallpaper_V1_2000x.webp" alt="">
+    <nav>
+        <div class="top_nav">
+            <div class="top_social">
+                <a href="https://www.facebook.com/BarbellBrigadeOfficial" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/user/bartkwan" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/barbellbrigade/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+            <div class="top_right">
+                <a href="../login.html" class="login">
+                    <i class="fa-regular fa-user"></i>
+                    <h3>Login</h3>
+                </a>
+                <div class="shopping_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="num" id="cart_number">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_nav">
+            <a href="/index_page/index.html" class="log_con">
+                <i class="fa-solid fa-dumbbell"></i>
+                <div class="name_con">
+                    <span>Barbell</span>
+                    <span>Brigade</span>
+                </div>
+            </a>
+            <ul class="nav-bar">
+                <li class="nav_li">
+                    <a href="../apparel/apparel.html">Apparel</a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../apparel/tops.html">Tops & T-Shirts</a>
+                        </div>
+                        <div>
+                            <a href="../apparel/bottoms.html">Bottoms</a>
+                        </div>
+                        <div>
+                            <a href="../apparel/footware.html">Footware</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../supplements/supplements.html">
+                        Supplements
+                    </a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../supplements/prework.html">Pre-Workout</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/stack.html">Strength Stack</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/protein.html">Protein</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/greens.html">Preformance Greens </a>
+                        </div>
+                        <div>
+                            <a href="../supplements/immunity.html">Immunity Support</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/vitamins.html">Vitamins</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../training/training.html">Training</a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../training/lean.html">Get Lean</a>
+                        </div>
+                        <div>
+                            <a href="../training/30day.html">30-Day Jump Start</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../gym.html">Gym</a>
+                </li>
+                <li class="nav_li">
+                    <a href="../media.html">Media</a>
+                </li>
+            </ul>
+            <div class="search_con">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+    </nav>
+    <div class="mobile_nav">
+        <div class="top_mobile_nav">
+            <div class="mobile_con">
+            </div>
+            <a href="/index_page/index.html" class="log_con">
+                <i class="fa-solid fa-dumbbell"></i>
+                <div class="name_con">
+                    <span>Barbell</span>
+                    <span>Brigade</span>
+                </div>
+            </a>
+            <a href="../search.html" class="mobile_con_1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+        
+        <div class="bottom_mobile_nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="mobile_label" >
+                <i class="fa-solid fa-bars"></i>
+                <h3>Menu</h3>
+            </label>
+            <ul class="nav-bar">
+                <li class="nav_li">
+                    <a href="../apparel/apparel.html">Apparel</a>
+                    <input type="checkbox" id="check_apparel">
+                    <label for="check_apparel">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </label>
+                    <div class="pop_up" >
+                        <div>
+                            <a href="../apparel/tops.html">Tops & T-Shirts</a>
+                        </div>
+                        <div>
+                            <a href="../apparel/bottoms.html">Bottoms</a>
+                        </div>
+                        <div>
+                            <a href="../apparel/footware.html">Footware</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../supplements/supplements.html">
+                        Supplements
+                    </a>
+                    <input type="checkbox" id="check_sup">
+                    <label for="check_sup">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </label>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../supplements/prework.html">Pre-Workout</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/stack.html">Strength Stack</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/protein.html">Protein</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/greens.html">Preformance Greens </a>
+                        </div>
+                        <div>
+                            <a href="../supplements/immunity.html">Immunity Support</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/vitamins.html">Vitamins</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../training/training.html">Training</a>
+                    <input type="checkbox" id="check_train">
+                        <label for="check_train">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../training/lean.html">Get Lean</a>
+                        </div>
+                        <div>
+                            <a href="../training/30day.html">30-Day Jump Start</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../gym.html">Gym</a>
+                </li>
+                <li class="nav_li">
+                    <a href="../media.html">Media</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="filler">
+        <div class="fill_wrapper" id="FW">
+            <p>
+                <a href="/index_page/index.html">Home</a> / <a href="#">Get Lean</a>
+            </p>
+        </div>
+    </div>
+    
+    <section class="main_section">
+        <div class="top_main">
+            <div class="top_left">
+                <img src="./images/leanbnr.webp" alt="">
+            </div>
+            <div class="top_right">
+                <div class="title">
+                    <h1>Get Lean - Training Program</h1>
+                </div>
+                <div class="purchase_box">
+                    <p class="price">$ 45.00</p>
+                    <p class="qty">QTY</p>
+                    <div class="btn_box">
+                        <div class="counter">
+                            <span class="down" onClick='decreaseCount(event, this)'><i class="fa-solid fa-minus"></i></span>
+                            <input type="text" value="1">
+                            <span class="up"  onClick='increaseCount(event, this)'><i class="fa-solid fa-plus"></i></span>
+                        </div>
+                        <button> ADD TO CART</button>
+                    </div>
+                    <div>
+                        <p class="bolder">Attn: This is a Digital Product. A Download link will be emailed to you after purchase.</p>
+                        <p>The Get Lean program is designed to help you optimally achieve fat loss by gaining strength, building muscle, and improving conditioning.</p>
+                    </div>
+                    <div>
+                        <p>This is a 12-week program with 5 training days per week.</p>
+                        <p class="bold">How it works:</p>
+                    </div>
+                    <p>We use the main barbell movements squat, bench, deadlift, and overhead press as the foundation of this program. These movements have been proven over decades to be critical to building strength, muscle, and burning fat.</p>
+                    <p>This program utilizes a strategic combination of high intensity exercises to maximize the amount of fat burned. Weight training, body weight movements, cardiovascular training, and metabolic conditioning work outs, to name a few.</p>
+                    <div>
+                        <p>The 12 weeks are broken down into 4 phases with 3 weeks per phase. Each phase has its own subgoal linked in a strategic sequential order to help you ensure success and keep the work outs fun!</p>
+                        <p>We developed 89 pages of programming and instructions to not only help achieve your weight loss goals but to elevate your fitness knowledge as well!
+                            This is an intermediate level program. If you're newer to training or haven't trained in a long time, don't worry, we help guide you through every step of the way! Let's Get Lean together today!</p>
+                    </div>
+                    <div class="bottom_list">
+                        <p class="bold">The Get Lean Program Includes:</p>
+                        <ul>
+                            <li>An 89-Page PDF outlining the Get Lean Program details</li>
+                            <li>Goals</li>
+                            <li>Program Philosophy</li>
+                            <li>Diet & Nutrition Guidelines</li>
+                            <li>Supplementation</li>
+                        </ul>
+                    </div>
+                    <div class="social_list">
+                        <ul>
+                            <li class="twitter"><a target="_blank" href="https://twitter.com/intent/tweet?text=Get%20Lean%20-%20Training%20Program&url=https://www.barbellbrigade.com/products/get-lean-training-program" ><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="fb"><a target="_blank" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.barbellbrigade.com%252Fproducts%252Fget-lean-training-program&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_US" ><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="pin"><a target="_blank" href="https://www.pinterest.com/pin-builder/?url=https%3A%2F%2Fwww.barbellbrigade.com%2Fproducts%2Fget-lean-training-program&description=Get+Lean+-+Training+Program&media=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1228%2F5232%2Fproducts%2FGetLeanProgram-ProductBanner_600x.png%3Fv%3D1652211791&method=button" ><i class="fa-brands fa-pinterest-p"></i></a></li>
+                            <li class="email"><a href="#" ><i class="fa-regular fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+        
+                </div>
+
+            </div>
+        </div>
+        <div class="bottom_main">
+            <div class="p_title">
+                <h1>Complete the package with these</h1>
+            </div>
+            <section class="section_1">
+                <a href="./30day.html" class="box">
+                    <div class="screen">
+                        <p class="title">
+                            30 Day Jump Start - Training Program
+                        </p>
+                        <p class="price">$ 15.00</p>
+                    </div>
+                    <img src="./images/30.webp" alt="">
+                </a>
+                <a href="#" class="box">
+                    <div class="screen">
+                        <p class="title">
+                            BB - Performance Greens (Agua de Pepino)
+                        </p>
+                        <p class="price">$ 43.00</p>
+                    </div>
+                    <img src="../supplements/images/greens.webp" alt="">
+                </a>
+                <a href="#" class="box">
+                    <div class="screen">
+                        <p class="title">
+                            BB - Pre-Workout (Mango Guava)
+                        </p>
+                        <p class="price">$ 59.00</p>
+                    </div>
+                    <img src="../supplements/images/preguava.webp" alt="">
+                </a>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top_footer">
+            <div class="form_con">
+                <div class="footer_title">
+                    <h3>Join The Brigade</h3>
+                    <p>Sign-Up and be the first to know about upcoming releases, events and more.  Also, receive exclusive subscriber-only offers and discounts!</p>
+                </div>
+                <form class="footer_form">
+                    <div class="top_inputs">
+                        <input class="name_in" type="text" placeholder="First Name" name="First" id="first">
+                        <input class="name_in" type="text" name="Last" id="last" placeholder="Last Name"  >
+                    </div>
+                    <div class="bottom_inputs">
+                        <input type="text" name="email" placeholder="Email Adress"> 
+                        <button type="submit">Sign Up </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <div class="bottom_footer_con">
+            <div class="footer_col">
+                <h3> Quick Links</h3>
+                <ul>
+                    <li>HOME</li>
+                    <li>SHOP</li>
+                    <li>SUPPLEMENTS</li>
+                    <li>GYM</li>
+                    <li>YOUTUBE</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>HELP + INFO</h3>
+                <ul>
+                    <li>Military & Emergency Service Discount</li>
+                    <li>Shipping</li>
+                    <li>Returns</li>
+                    <li>Payment Methods</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>#DOMINATEHUMBLY</h3>
+                <ul class="flex_list">
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        function increaseCount(a, b) {
+          var input = b.previousElementSibling;
+          var value = parseInt(input.value, 10); 
+          value = isNaN(value)? 0 : value;
+          value ++;
+          input.value = value;
+        }
+        function decreaseCount(a, b) {
+          var input = b.nextElementSibling;
+          var value = parseInt(input.value, 10); 
+          if (value > 1) {
+            value = isNaN(value)? 0 : value;
+            value --;
+            input.value = value;
+          }
+        }
+      </script>
+</body>
+</html>

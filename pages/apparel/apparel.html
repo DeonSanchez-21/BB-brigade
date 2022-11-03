@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbell Brigade</title>
+    <link rel="stylesheet" href="/dist/css/main.min.css">
+    <script src="https://kit.fontawesome.com/460480b505.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img class="wall_ppr" src="/index_page/images/BFCM_Background_Wallpaper_V1_2000x.webp" alt="">
+    <nav>
+        <div class="top_nav">
+            <div class="top_social">
+                <a href="https://www.facebook.com/BarbellBrigadeOfficial" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/user/bartkwan" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/barbellbrigade/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+            <div class="top_right">
+                <a href="../login.html" class="login">
+                    <i class="fa-regular fa-user"></i>
+                    <h3>Login</h3>
+                </a>
+                <div class="shopping_cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="num" id="cart_number">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_nav">
+            <a href="/index_page/index.html" class="log_con">
+                <i class="fa-solid fa-dumbbell"></i>
+                <div class="name_con">
+                    <span>Barbell</span>
+                    <span>Brigade</span>
+                </div>
+            </a>
+            <ul class="nav-bar">
+                <li class="nav_li">
+                    <a href="./apparel.html">Apparel</a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../apparel/tops.html">Tops & T-Shirts</a>
+                        </div>
+                        <div>
+                            <a href="./bottoms.html">Bottoms</a>
+                        </div>
+                        <div>
+                            <a href="./footware.html">Footware</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../supplements/supplements.html">
+                        Supplements
+                    </a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../supplements/prework.html">Pre-Workout</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/stack.html">Strength Stack</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/protein.html">Protein</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/greens.html">Preformance Greens </a>
+                        </div>
+                        <div>
+                            <a href="../supplements/immunity.html">Immunity Support</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/vitamins.html">Vitamins</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../training/training.html">Training</a>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../training/lean.html">Get Lean</a>
+                        </div>
+                        <div>
+                            <a href="../training/30day.html">30-Day Jump Start</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../gym.html">Gym</a>
+                </li>
+                <li class="nav_li">
+                    <a href="../media.html">Media</a>
+                </li>
+            </ul>
+            <div class="search_con">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+    </nav>
+    <div class="mobile_nav">
+        <div class="top_mobile_nav">
+            <div class="mobile_con">
+            </div>
+            <a href="/index_page/index.html" class="log_con">
+                <i class="fa-solid fa-dumbbell"></i>
+                <div class="name_con">
+                    <span>Barbell</span>
+                    <span>Brigade</span>
+                </div>
+            </a>
+            <a href="../search.html" class="mobile_con_1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+        
+        <div class="bottom_mobile_nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="mobile_label" >
+                <i class="fa-solid fa-bars"></i>
+                <h3>Menu</h3>
+            </label>
+            <ul class="nav-bar">
+                <li class="nav_li">
+                    <a href="./apparel.html">Apparel</a>
+                    <input type="checkbox" id="check_apparel">
+                    <label for="check_apparel">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </label>
+                    <div class="pop_up" >
+                        <div>
+                            <a href="../apparel/tops.html">Tops & T-Shirts</a>
+                        </div>
+                        <div>
+                            <a href="./bottoms.html">Bottoms</a>
+                        </div>
+                        <div>
+                            <a href="./footware.html">Footware</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../supplements/supplements.html">
+                        Supplements
+                    </a>
+                    <input type="checkbox" id="check_sup">
+                    <label for="check_sup">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </label>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../supplements/prework.html">Pre-Workout</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/stack.html">Strength Stack</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/protein.html">Protein</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/greens.html">Preformance Greens </a>
+                        </div>
+                        <div>
+                            <a href="../supplements/immunity.html">Immunity Support</a>
+                        </div>
+                        <div>
+                            <a href="../supplements/vitamins.html">Vitamins</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../training/training.html">Training</a>
+                    <input type="checkbox" id="check_train">
+                        <label for="check_train">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </label>
+                    <div class="pop_up">
+                        <div>
+                            <a href="../training/lean.html">Get Lean</a>
+                        </div>
+                        <div>
+                            <a href="../training/30day.html">30-Day Jump Start</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_li">
+                    <a href="../gym.html">Gym</a>
+                </li>
+                <li class="nav_li">
+                    <a href="../media.html">Media</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <header>
+        <a href="#" class="cover">
+            <img src="./images/BANNER_001_1800x_progressive_png_2000x.progressive.webp" alt="" class="cover_img">
+        </a>
+    </header>
+
+    <div class="filler">
+        <div class="fill_wrapper">
+            <p>
+                <a href="/index_page/index.html">Home</a> / <a href="#">Apparel</a>
+            </p>
+        </div>
+    </div>
+    
+    <section class="section_1">
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    Amphibious MKIII - Shorts (Olive Topographic)
+                </p>
+                <p class="price">$ 60.00</p>
+            </div>
+            <img src="./images/shorts_1.webp" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    Amphibious MKIII - Shorts (Grey Topographic)
+                </p>
+                <p class="price"> $ 60.00</p>
+            </div>
+            <img src="./images/shorts_2.jpg" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    3D - Oversized Tee (Black)
+                </p>
+                <p class="price">$ 39.00</p>
+            </div>
+            <img src="./images/shirt_1.webp" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    3D - Oversized Tee (Dark Silver)
+                </p>
+                <p class="price">$ 39.00</p>
+            </div>
+            <img src="./images/0T6A0419_600x.jpg" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    3D - Oversized Tee (Navy)
+                </p>
+                <p class="price">$ 39.00</p>
+            </div>
+            <img src="./images/0T6A0402_600x.jpg" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    Amphibious MKIII - Shorts (Black Topographic)
+                </p>
+                <p class="price">$ 60.00</p>
+            </div>
+            <img src="./images/shorts-3.jpg" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    BB Ethos - Oversized Tee (Black)
+                </p>
+                <p class="price">$ 39.00</p>
+            </div>
+            <img src="./images/shirt_4.webp" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    BB Ethos - Oversized Tee (Olive)
+                </p>
+                <p class="price">$ 39.00</p>
+            </div>
+            <img src="./images/shirt_5.jpg" alt="">
+        </a>
+        <a href="#" class="box">
+            <div class="screen">
+                <p class="title">
+                    Dominate Humbly - Oversized Tee (Sage)
+                </p>
+                <p class="price">Not Available in Some Sizes</p>
+            </div>
+            <img src="./images/shirt6.webp" alt="">
+        </a>
+    </section>
+    
+
+    <footer>
+        <div class="top_footer">
+            <div class="form_con">
+                <div class="footer_title">
+                    <h3>Join The Brigade</h3>
+                    <p>Sign-Up and be the first to know about upcoming releases, events and more.  Also, receive exclusive subscriber-only offers and discounts!</p>
+                </div>
+                <form class="footer_form">
+                    <div class="top_inputs">
+                        <input class="name_in" type="text" placeholder="First Name" name="First" id="first">
+                        <input class="name_in" type="text" name="Last" id="last" placeholder="Last Name"  >
+                    </div>
+                    <div class="bottom_inputs">
+                        <input type="text" name="email" placeholder="Email Adress"> 
+                        <button type="submit">Sign Up </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="bottom_footer">
+            <div class="bottom_footer_con">
+            <div class="footer_col">
+                <h3> Quick Links</h3>
+                <ul>
+                    <li>HOME</li>
+                    <li>SHOP</li>
+                    <li>SUPPLEMENTS</li>
+                    <li>GYM</li>
+                    <li>YOUTUBE</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>HELP + INFO</h3>
+                <ul>
+                    <li>Military & Emergency Service Discount</li>
+                    <li>Shipping</li>
+                    <li>Returns</li>
+                    <li>Payment Methods</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="footer_col">
+                <h3>#DOMINATEHUMBLY</h3>
+                <ul class="flex_list">
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
